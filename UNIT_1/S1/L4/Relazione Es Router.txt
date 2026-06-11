@@ -1,0 +1,7 @@
+Ho creato un sistema composto da una lan con 3 pc con Ip 192.168.100.1/24 e un altra con 2 pc con ip 192.168.200.1/24, entrambe le lan sono collegate ad uno switch personale che successivamente si collegano ad un router con inserimento del relativo Gateway ambo i lati.
+
+Quando si esegue quanto richiesto: Mettere in comunicazione il laptop-PT0 con IP 192.168.100.100 con il PC-PT-PC0 con IP 192.168.100.102
+Il pacchetto viene inviato prima allo switch e successivamente ai computer e al router, trova il pc di riferimento e torna al mittente con la risposta.
+
+Quando si esegue questo: Mettere in comunicazione il laptop-PT0 con IP 192.168.100.100 con il laptop-PT2 con IP 192.168.200.100
+Abbiamo una soluzione simile ma quando arriva al router il sistema riconosce il MAC del router torna la risposta e poi riparte il pacchetto successivo eseguendo tutto il percorso e trovando il computer di destinazione con relativo ritorno della risposta.
